@@ -342,6 +342,28 @@
             </li>
           </ul>
         </div>
+
+        <form class="footer-form">
+            <p class="title-footer">Підпишіться на розсилку</p>
+            <div class="footer-input-wrapper">
+            <label class="footer-email-label">
+              <input
+                class="footer-input"
+                type="email"
+                name="user_mail"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="footer-input-btn">
+              Підписатися
+              <svg class="footer-input-icon" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+            </div>
+          </form>
+
         </div>
     </footer>
   </body>
